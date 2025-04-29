@@ -1,0 +1,51 @@
+# EN: Maximum width of comments. Helps with line wrapping in comments.
+# KO: 주석의 최대 너비입니다. 주석 내에서 줄 바꿈을 도와줍니다.
+comment_width = 120
+
+# EN: The Rust edition to use for formatting. This affects how certain newer syntax is handled.
+# KO: 포맷팅에 사용할 Rust 에디션입니다. 이는 특정 새로운 문법이 처리되는 방식에 영향을 줍니다.
+edition = "2021"
+
+# EN: Format code snippets in documentation comments.
+# KO: 문서화 주석 내의 코드 스니펫을 포맷팅합니다.
+format_code_in_doc_comments = true
+
+# EN: Controls how imports are grouped. "StdExternalCrate" groups standard library, external crates, and local imports.
+# KO: 임포트가 그룹화되는 방식을 제어합니다. "StdExternalCrate"는 표준 라이브러리, 외부 크레이트, 로컬 임포트 순으로 그룹화합니다.
+group_imports = "StdExternalCrate"
+
+# EN: Controls how detailed imports are. "Item" means each item in an import will be on its own line.
+# KO: 임포트의 세부 수준을 제어합니다. "Item"은 각 임포트 항목이 별도의 줄에 위치함을 의미합니다.
+imports_granularity = "Item"
+
+# EN: Normalize comments, converting /* */ to // where possible.
+# KO: 주석을 정규화하여 가능한 경우 /* */를 //로 변환합니다.
+normalize_comments = true
+
+# EN: Format delimited expressions (arrays, function arguments) even when they overflow the maximum width.
+# KO: 구분자로 나뉜 표현식(배열, 함수 인수)이 최대 너비를 초과하더라도 포맷팅합니다.
+overflow_delimited_expr = true
+
+# EN: Alphabetically reorder imports.
+# KO: 임포트를 알파벳 순으로 재정렬합니다.
+reorder_imports = true
+
+# EN: The Rust edition to use for determining the style of formatting.
+# EN: Using 2024 means newer style rules from that edition will be used.
+# KO: 포맷팅 스타일을 결정하는 데 사용할 Rust 에디션입니다.
+# KO: 2024를 사용하면 해당 에디션의 최신 스타일 규칙이 적용됩니다.
+style_edition = "2024"
+
+# EN: Controls where to put trailing commas in comma-separated lists.
+# EN: "Vertical" adds trailing commas only in multi-line lists.
+# KO: 쉼표로 구분된 목록에서 후행 쉼표를 어디에 넣을지 제어합니다.
+# KO: "Vertical"은 여러 줄에 걸친 목록에만 후행 쉼표를 추가합니다.
+trailing_comma = "Vertical"
+
+# EN: Format `where` clauses on a single line if they fit.
+# KO: `where` 절이 한 줄에 맞으면 한 줄로 포맷팅합니다.
+where_single_line = true
+
+# EN: Wrap long comments to fit within the maximum comment width.
+# KO: 긴 주석을 최대 주석 너비에 맞게 줄 바꿈합니다.
+wrap_comments = true

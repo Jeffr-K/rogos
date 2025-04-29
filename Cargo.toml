@@ -1,0 +1,24 @@
+[workspace]
+members = [
+    "rogos",
+    "rogos-server",
+    "rogos-store",
+    "rogos-dashboard",
+    "rogos-client",
+    "rogos-actor",
+    "rogos-schema",
+    "rogos-testing"
+]
+
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["oscar.rs <jeff.cofos@gmail.com>"]
+description = "Rogos - A Rust implementation of SAGA pattern for distributed transactions"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Jeffr-K/rogos"
+
+[workspace.dependencies]
+
